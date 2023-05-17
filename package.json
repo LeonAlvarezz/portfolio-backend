@@ -4,7 +4,8 @@
   "description": "backend used to handle incoming traffic from the request work form",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo 'No build step required'"
   },
   "author": "Narethputponleu",
   "license": "ISC",
