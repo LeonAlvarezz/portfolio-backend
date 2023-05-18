@@ -47,6 +47,7 @@ app.post('/submit-form', (req, res) => {
       bot.sendMessage(chatId, message)
         .then(() => {
           res.send('Form data submitted successfully');
+          res.redirect('https://portfolio-w13g.onrender.com/success.html');
         })
         .catch((error) => {
           console.error('Error sending message to Telegram:', error);
@@ -56,7 +57,7 @@ app.post('/submit-form', (req, res) => {
     })
     .catch((error) => {
       console.error('Error adding document: ', error);
-      res.redirect('/error.html');
+      res.redirect('https://portfolio-w13g.onrender.com/error.html');
     });
   });
 
