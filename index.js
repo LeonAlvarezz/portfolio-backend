@@ -46,7 +46,6 @@ app.post('/submit-form', (req, res) => {
       const chatId = process.env.TELEGRAM_GROUP_ID;
       bot.sendMessage(chatId, message)
         .then(() => {
-          res.send('Form data submitted successfully');
           res.redirect('https://portfolio-w13g.onrender.com/success.html');
         })
         .catch((error) => {
