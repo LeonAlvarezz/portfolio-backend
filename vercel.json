@@ -1,11 +1,5 @@
 {
     "version": 2,
-    "builds":[
-        {
-            "scripts":"./index.js",
-            "use":"@vercel/node"
-        }
-    ],
     "routes":[
         {
             "src": "/(.*)",
