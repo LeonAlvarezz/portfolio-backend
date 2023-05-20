@@ -8,8 +8,6 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run install-dependencies && npm run start",
-    "install-dependencies": "npm i",
     "start": "node index.js"
   },
   "author": "Narethputponleu",
